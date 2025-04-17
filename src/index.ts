@@ -1,7 +1,8 @@
 import {config} from 'dotenv'
 import express from 'express'
 import process from 'node:process';
-import userRouter from './routes/users.js';
+import userRouter from "./routes/auth.routs";
+
 
 const app = express();
 app.use(express.json());
